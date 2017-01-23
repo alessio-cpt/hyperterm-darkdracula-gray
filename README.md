@@ -1,4 +1,4 @@
-# Gooey Theme for HyperTerm
+# Dark Dracula Gray theme for HyperTerm
 
 ####[HyperTerm](https://hyperterm.org) theme based on [the **Hyperterm Gooey** Syntax theme](https://github.com/simeydotme/hyperterm-gooey).  
 

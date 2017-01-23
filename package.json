@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "hyperterm-gooey",
+        "scope": null,
+        "escapedName": "hyperterm-gooey",
+        "name": "hyperterm-gooey",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/alessio/.hyper_plugins/local"
+    ]
+  ],
+  "_from": "hyperterm-gooey@latest",
+  "_id": "hyperterm-gooey@1.0.1",
+  "_inCache": true,
+  "_location": "/hyperterm-gooey",
+  "_nodeVersion": "5.1.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/hyperterm-gooey-1.0.1.tgz_1481988962690_0.7318275053985417"
+  },
+  "_npmUser": {
+    "name": "simeydotme",
+    "email": "simey.me@gmail.com"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "hyperterm-gooey",
+    "scope": null,
+    "escapedName": "hyperterm-gooey",
+    "name": "hyperterm-gooey",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/hyperterm-gooey/-/hyperterm-gooey-1.0.1.tgz",
+  "_shasum": "8492c47094d046041ddebf846a2b5ebd0da3514b",
+  "_shrinkwrap": null,
+  "_spec": "hyperterm-gooey",
+  "_where": "/home/alessio/.hyper_plugins/local",
+  "author": {
+    "name": "Simon Goellner",
+    "email": "simey.me@gmail.com",
+    "url": "http://simey.me"
+  },
+  "bugs": {
+    "url": "https://github.com/simeydotme/hyperterm-gooey/issues"
+  },
+  "dependencies": {},
+  "description": "Gooey Hyperterm Theme, based on Atom Gooey",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8492c47094d046041ddebf846a2b5ebd0da3514b",
+    "tarball": "https://registry.npmjs.org/hyperterm-gooey/-/hyperterm-gooey-1.0.1.tgz"
+  },
+  "gitHead": "8c28ab8b52b04021415d1e7f8f7d10d04bf04e86",
+  "homepage": "https://github.com/simeydotme/hyperterm-gooey#readme",
+  "keywords": [
+    "hyperterm",
+    "hyper",
+    "hyper.is",
+    "hyper.js",
+    "hyperterm-theme",
+    "theme",
+    "terminal",
+    "colors",
+    "atom",
+    "gooey",
+    "simey",
+    "simeydotme",
+    "green",
+    "dark"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "simeydotme",
+      "email": "simey.me@gmail.com"
+    }
+  ],
+  "name": "hyperterm-gooey",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simeydotme/hyperterm-gooey.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
+}

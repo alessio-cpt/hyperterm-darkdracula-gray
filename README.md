@@ -9,7 +9,6 @@ I am not a javascript dev, this is just a differently colored version of
 
 Tested on Windows and Ubuntu.
 
-![The main window](/screenshots/screenshot_2.png)
 ![The palette](/screenshots/screenshot_1.png)
 
 ## Install

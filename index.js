@@ -1,28 +1,28 @@
 const backgroundColor = '#212121'
-const foregroundColor = '#f5f4e8  '
+const foregroundColor = '#d9d9d9'
 const borderColor = backgroundColor
 
 const colors = {
   black       : backgroundColor,
-  red         : '#ff4081', // red
+  red         : '#ff4242', // red
   green       : '#4eee7d', // green
   yellow      : '#fbfc6d', // yellow
   blue        : '#6272a4', // blue
   magenta     : '#de53cf', // pink
-  cyan        : '#83f7d6', // cyan
-  white       : '#9faac1', // light gray
-  lightBlack  : '#788194', // medium gray
-  lightRed    : '#f59ea3', // red
-  lightGreen  : '#37fab4', // green
-  lightYellow : '#f2ef9c', // yellow
-  lightBlue   : '#83a8ed', // blue
-  lightMagenta: '#f288d9', // pink
-  lightCyan   : '#86edec', // cyan
+  cyan        : '#8be9fd', // cyan
+  white       : '#f8f8f8', // light gray
+  lightBlack  : '#c0c0c0', // medium gray
+  lightRed    : '#ff4242', // red
+  lightGreen  : '#4eee7d', // green
+  lightYellow : '#fbfc6d', // yellow
+  lightBlue   : '#6272a4', // blue
+  lightMagenta: '#ff42f2', // pink
+  lightCyan   : '#8be9fd', // cyan
   colorCubes  : '#ffffff', // white
   grayscale   : foregroundColor
 }
 
-const cursorColor = colors.cyan
+const cursorColor = foregroundColor
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
@@ -72,11 +72,10 @@ exports.decorateConfig = config => {
         left: 0;
         width: 100%;
         height: 1px;
-        background: ${ colors.green  };
+        background: ${ colors.lightBlack };
         opacity: 0;
         transition: opacity .16s;
         z-index: 1;
-        box-shadow: 0 0 10px ${ colors.green };
         }
       .tabs_title,
       .tab_tab.tab_active {
@@ -130,7 +129,7 @@ exports.decorateConfig = config => {
         background-color: transparent;
       }
       .tab_tab.tab_active .tab_icon:hover {
-        background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4cHgiIGhlaWdodD0iOHB4IiB2aWV3Qm94PSIwIDAgOCA4Ij4NCiAgPHBhdGggZD0iTTUuNDE0MjEzNjUsNC4wMDAwMDAwOSBMOC4wMDcxMDY5Nyw2LjU5Mjg5MzQxIEw2LjU5Mjg5MzQxLDguMDA3MTA2OTcgTDQuMDAwMDAwMDksNS40MTQyMTM2NSBMMS40MDcxMDY3Nyw4LjAwNzEwNjk3IEwtMC4wMDcxMDY3OTMxMSw2LjU5Mjg5MzQxIEwyLjU4NTc4NjUzLDQuMDAwMDAwMDkgTC0wLjAwNzEwNjc5MzExLDEuNDA3MTA2NzcgTDEuNDA3MTA2NzcsLTAuMDA3MTA2NzkzMTEgTDQuMDAwMDAwMDksMi41ODU3ODY1MyBMNi41OTI4OTM0MSwtMC4wMDcxMDY3OTMxMSBMOC4wMDcxMDY5NywxLjQwNzEwNjc3IEw1LjQxNDIxMzY1LDQuMDAwMDAwMDkgWiIgZmlsbD0iIzRlZWU3ZCI+PC9wYXRoPg0KPC9zdmc+');
+        background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4cHgiIGhlaWdodD0iOHB4IiB2aWV3Qm94PSIwIDAgOCA4Ij4NCiAgPHBhdGggZD0iTTUuNDE0MjEzNjUsNC4wMDAwMDAwOSBMOC4wMDcxMDY5Nyw2LjU5Mjg5MzQxIEw2LjU5Mjg5MzQxLDguMDA3MTA2OTcgTDQuMDAwMDAwMDksNS40MTQyMTM2NSBMMS40MDcxMDY3Nyw4LjAwNzEwNjk3IEwtMC4wMDcxMDY3OTMxMSw2LjU5Mjg5MzQxIEwyLjU4NTc4NjUzLDQuMDAwMDAwMDkgTC0wLjAwNzEwNjc5MzExLDEuNDA3MTA2NzcgTDEuNDA3MTA2NzcsLTAuMDA3MTA2NzkzMTEgTDQuMDAwMDAwMDksMi41ODU3ODY1MyBMNi41OTI4OTM0MSwtMC4wMDcxMDY3OTMxMSBMOC4wMDcxMDY5NywxLjQwNzEwNjc3IEw1LjQxNDIxMzY1LDQuMDAwMDAwMDkgWiIgZmlsbD0iI2ZmNDI0MiI+PC9wYXRoPg0KPC9zdmc+');
         opacity: 1;
       }
       .tab_tab.tab_active .tab_icon {

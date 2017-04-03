@@ -1,6 +1,6 @@
 # Dark Dracula Gray theme for HyperTerm
 
-####[HyperTerm](https://hyperterm.org) theme based on [the **Hyperterm Gooey** Syntax theme](https://github.com/simeydotme/hyperterm-gooey).  
+#### [HyperTerm](https://hyperterm.org) theme based on [the **Hyperterm Gooey** Syntax theme](https://github.com/simeydotme/hyperterm-gooey).  
 
 A dark gray version of the dark dracula theme, similar to the [dark dracula theme](https://marketplace.visualstudio.com/items?itemName=gerane.Theme-Dark-Dracula) for Visual Studio Code.
 
